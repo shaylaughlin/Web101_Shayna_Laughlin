@@ -1,0 +1,112 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(SALEM2.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1600px;
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 200px;
+    height: 200px;
+    margin: 3% 10%;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+  /* This is an element within and element selector */ 
+  nav > a {
+    margin: 2% 2% 4%;
+    height: 15%;
+    width: 15%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid orange;
+    
+  }
+
+  .has-border {
+    border-radius: 5px;
+    border: 7px double whitesmoke;
+    background: none:
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+  }
+  /* This is an ID selector */
+  #profile-pic {
+    width: 300px;
+    height: 500px;
+    border-radius: 4%;
+    margin: 20% auto;
+    grid-column: 2/3;
+    border: 7px double white;
+    padding: 8px;
+  }
+  
+
+  h1 {
+    color: rgb(149, 126, 202);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(230, 185, 164);
+    grid-column: 2/3;
+    margin: 3% auto;
+    border-bottom: 5px solid black;
+    border-style: groove;
+    border-width: 20pt;
+    border-color: #ec97a5;
+  }
+
+  h2 {
+    grid-column: 2/3;
+    margin: 3% auto;
+    font-style: italic;
+    text-align: center;
+    color: rgb(223, 126, 166);
+  }
+
+  .small-text {
+    grid-column: 2/3;
+    color: white;
+    font-size: 10px;
+    margin: 3% auto;
+  }
+
+  button {
+    grid-column: 2/3;
+    margin: 2% auto;
+    width: 50%;
+    height: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border: 7px double white;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    padding-bottom: 9%;
+    text-align: center;
+    color: rgb(230, 117, 65);
+    letter-spacing: 8px;
+    font-style: bolder;
+    
+  }
