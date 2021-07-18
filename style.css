@@ -41,10 +41,10 @@ body {
   }
 
   .has-border {
-    border-radius: 5px;
-    border: 7px double whitesmoke;
+    border-radius: 10px;
+    border: 10px double whitesmoke;
     background: none:
-    padding: 10px;
+    padding: 5px;
   }
 
   nav {
@@ -92,8 +92,7 @@ body {
     margin: 3% auto;
   }
 
-/* 
-  test  */
+
   button {
     grid-column: 2/3;
     margin: 2% auto;
@@ -108,7 +107,7 @@ body {
     padding-bottom: 9%;
     text-align: center;
     color: rgb(230, 117, 65);
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     font-style: bolder;
     
   }
