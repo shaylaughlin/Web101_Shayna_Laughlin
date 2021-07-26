@@ -43,7 +43,7 @@ body {
   .has-border {
     border-radius: 10px;
     border: 10px double whitesmoke;
-    background: none:
+    background: none;
     padding: 5px;
   }
 
