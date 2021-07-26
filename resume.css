@@ -1,7 +1,119 @@
 * {
   box-sizing: border-box;
+
 }
+
 body {
   margin: 0;
-  background-color: white;
+  font-family: 'Comfortaa', cursive;
+  color: #D7C1A1;
 }
+
+
+p {
+  font-size: 20px;
+  }
+
+img {
+  display:flex;
+  justify-self: normal;
+  max-width: 100%; 
+}
+
+h4 {
+  font-size: 25px;
+}
+
+ .grid-container {
+   max-width: 100%;
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   /* grid-template-rows: 30% 20% 25% 25%; */
+   grid-auto-rows: minmax(50px, max-content);
+   /* grid-auto-rows: 200px, 0px; */
+   grid-column-gap: 5%;
+   background-color: #344648;
+ }
+
+ /* .grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+ } */
+
+ .name {
+  text-align: center;
+  grid-column: 2/4;
+  font-size: 40px;
+}
+
+.contact {
+  grid-row: span 2/5;
+  text-align: center;
+  font-size: 35px;
+  background-color: #467FAA;
+  padding: 15px;
+  
+}
+
+.headshot {
+  grid-row: span 2;
+  
+}
+
+.box {
+  margin: auto;
+  max-width: 95%;
+  height: 10px;
+  background-color: #FB7E00;
+  
+}
+
+.summary {
+  grid-column: 2;
+  grid-row:2;
+  font-size: 20px;
+
+}
+
+.skills {
+  grid-column: 3;
+  grid-row:2;
+  font-size: 20px;
+
+}
+
+.work {
+  grid-column: 2;
+  grid-row:3;
+  font-size: 20px;
+
+}
+
+.item4 {
+  grid-column: 3;
+  grid-row: 3;
+  padding-top: 50px;
+
+}
+
+.academic {
+  grid-column: 2;
+  grid-row:4;
+  font-size: 20px;
+
+}
+
+.item5 {
+  grid-column:3;
+  grid-row:4;
+  padding: 50px;
+}
+
+/* @media (min-width: 699px) {
+  .grid-item {
+    flex-direction:row;
+    
+  }
+  } */
