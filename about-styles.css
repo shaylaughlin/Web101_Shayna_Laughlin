@@ -9,8 +9,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(133, 52, 5);
-    background-blend-mode:difference;
+    background-color: rgb(116, 48, 9);
+    background-blend-mode: difference;
     /* margin:auto; */
     
 }
@@ -54,11 +54,11 @@ article {
   display: block; 
   float:inherit;
   color:white;
-  background-color: rgba(107, 11, 102, 0.6);
+  background-color: rgba(78, 7, 75, 0.6);
   font-size: 15px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  border: double 8px #32a868;
+  border: double 8px #1c643d;
   width: 50%;
   height: 100%;
   box-shadow: 2em 2rem 0 0rem rgba(30, 4, 65, 0.6);
@@ -91,10 +91,10 @@ article {
     }
     }
   
-    /* @media (min-width: 1025px) {
+    @media (min-width: 1025px) {
       .form {
         display:flex;
         flex-direction:row;
         
       }
-      } */
+      }

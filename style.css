@@ -2,7 +2,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(SALEM2.jpg);
     background-repeat: no-repeat;
-    background-size: 2000px 1600px;
+    background-size: cover;
+    background-color: rgb(187, 131, 177);
+    background-blend-mode:darken;
   }
   /* What kind of selector is this? */
   .logo {
