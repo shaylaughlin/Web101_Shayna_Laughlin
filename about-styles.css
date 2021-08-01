@@ -9,18 +9,19 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(158, 71, 20);
+    background-color: rgb(133, 52, 5);
     background-blend-mode:difference;
+    /* margin:auto; */
     
 }
 
 h1 {
-  color: rgb(252, 55, 235);
+  margin: auto;
+  color: rgb(236, 52, 221);
   text-shadow: 0px 0px 20px rgb(252, 55, 235);
-  filter: blur(1px) brightness(1);
-  font-size: 60px;
+  filter: blur(2px) brightness(1);
+  font-size: 70px;
   font-family: 'Codystar', cursive;
-  margin:auto;
   animation: flicker 2s linear 1s forwards;
  
 }
@@ -50,7 +51,7 @@ section {
 }
 
 article {
-  display: block;
+  display: block; 
   float:inherit;
   color:white;
   background-color: rgba(107, 11, 102, 0.6);
@@ -62,23 +63,38 @@ article {
   height: 100%;
   box-shadow: 2em 2rem 0 0rem rgba(30, 4, 65, 0.6);
    
-
+}
+#first {
+ padding: 20px;
 }
 
-@media (min-width: 699px) {
+#second {
+  padding: 20px;
+  
+}
+
+@media (max-width: 699px) {
   .section {
+    display: flex;
     flex-direction:row;
     justify-content: center;
     text-align: center;
-  
-    
+   
   }
   }
 
   @media (max-width: 960px) {
     .section {
+      display: flex;
       flex-direction:row;
       
     }
     }
   
+    /* @media (min-width: 1025px) {
+      .form {
+        display:flex;
+        flex-direction:row;
+        
+      }
+      } */
